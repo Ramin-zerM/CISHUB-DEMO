@@ -1,0 +1,51 @@
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+.btn {
+  background-color: #00aaff;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btnDisabled {
+  background-color: #ddd;
+  color: #aaa;
+  cursor: not-allowed;
+  padding: 10px 40px;
+  border-radius: 25px;
+  border: none;
+}
+
+.red {
+  color: #ff0055;
+}
+
+.blue {
+  color: #0088ff;
+}
+.forgot {
+  font-size: 0.8em;
+  color: gray;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

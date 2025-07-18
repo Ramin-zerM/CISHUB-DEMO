@@ -1,0 +1,90 @@
+.container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.title {
+  color: #007bff;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.card {
+  flex: 1;
+  width: 100%;
+  display: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 100%;        
+  height: auto;          
+  display: inline-block;   
+  position: relative;  
+  width: 200px;        
+  height: 150px;       
+  object-fit: contain;  
+  margin-top: 150px ;  
+  margin-bottom: 20px;     
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input {
+  width: 250px;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.inputGroup {
+  position: relative;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.input:focus + label,
+.input:not(:placeholder-shown) + label,
+.input[value]:not([value=""]) + label {
+  top: -8px;
+  font-size: 12px;
+  color: #007bff;
+}
+.label {
+  position: absolute;
+  left: 12px;
+  top: 14px;
+  color: #999;
+  font-size: 16px;
+  pointer-events: none;
+  background-color: white;
+  padding: 0 4px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+.form button {
+  margin-top: 10px;
+  padding: 10px 0;
+  width: 250px;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin: 5px 0;
+}
